@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.czterystaczetery {
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    font-size: 600px;
+    transition: transform 2s ease-in-out;
+}
+
+.czterystaczetery:hover {
+    transform: rotate(1080deg);
+    transition: transform 2s ease-in-out;
+}

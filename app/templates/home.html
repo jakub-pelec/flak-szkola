@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="{{ url_for('static', filename='css/global.css') }}"
+		/>
+		<link
+			rel="stylesheet"
+			href="{{ url_for('static', filename='css/home.css') }}"
+		/>
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<h1>Welcome on my website</h1>
+			<div class="content-wrapper">
+				<div class="container">
+					<div class="content">
+						<div class="links-title">Links</div>
+						<div class="links-container">
+							<a href="/about">About</a>
+							<a href="/contact">Contact</a>
+							<a href="/gallery">Gallery</a>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ea adipisci ipsum cum veniam explicabo voluptatibus, ullam quos! Iure, maiores nisi ut quam impedit nam, nihil, nobis ipsam sed laboriosam dolorem reiciendis quia! Aut, doloremque, doloribus illo at dolorum quos labore iusto corrupti consequuntur ad iste quidem voluptatem et error!</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

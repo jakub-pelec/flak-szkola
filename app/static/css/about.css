@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+}
+
+.wrapper {
+    margin: auto;
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.container {
+    padding: 5%;
+    background-color: #e0e0e0;
+    border: 1px solid #c7c7c7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    transition: background-color .5s ease-in-out;
+}
+
+.container:hover {
+    background-color: #ff8585;
+    transition: background-color .5s ease-in-out;
+}
